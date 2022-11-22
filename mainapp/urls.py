@@ -16,7 +16,5 @@ urlpatterns = [
         name="courses_detail",
     ),
     path("contacts/", views.ContactsPageView.as_view(), name="contacts"),
-    path("contacts2/", views.Contacts2PageView.as_view(), name="contacts2"),
     path("doc_site/", views.DocSitePageView.as_view(), name="doc_site"),
-    path("login/", views.LoginPageView.as_view(), name="login"),
 ]
